@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Fake News Detector</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <LI><a href="fnd.html">Home</a></LI>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>AI Fake News Detector</h1>
+        <form id="news-form">
+            <textarea id="news-text" placeholder="Enter news article text here..." required></textarea>
+            <a href="result.html" class="start-button">Predict</a>
+        </form>
+        <div id="result"></div>
+    </div>
+    <section id="about">
+        <h2>About</h2>
+        <p>In this day and age ,rumours and fake news circulation is a huge problem in every department.
+            Our project tries to solve this problem with the help of Machine Learning.</p>
+    </section>
+    
+    <footer>
+        <h2>Get in Touch with Us</h2>
+        <form id="contact-form">
+            <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+            <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+            <textarea id="query" name="query" placeholder="Your Query" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
